@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Khojki:wght@700&family=Playfair+Display&display=swap');
+
+body, html {
+margin: 0;
+padding: 0;
+font-family: 'Playfair Display', serif;
+font-size: 20px;
+}
+
+.heading-bg{
+    text-align: center;
+    color: white;
+}
+
+.bg{
+    background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(Assets/background-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.Title{
+    font-size: 65px;
+    font-family: 'Noto Serif Khojki', serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} 
+.SubTitle{
+    font-size: 30px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.QuickInfo{
+    margin: 0 auto 50px auto;
+    width: 70%;
+    text-align: justify;
+}
+
+.heading-bg2{
+    text-align: center;
+    color: white;
+    position: relative;
+    background: linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0,0.6)), url(Assets/bg-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 400px;
+}
+
+.heading-bg2 h2{
+    font-family: 'Noto Serif Khojki', serif;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.timeline{
+    margin: 50px 0 50px 0;
+}
+
+
+ul {
+    max-width: 60%;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+  }
+  
+li {
+    margin: 16px 0;
+}
+
+.wikilink{
+    text-align: center;
+}
+
+.wikilink a{
+    text-decoration: solid;
+    color: cornflowerblue;
+}
+
+.footer-bg{
+    text-align: center;
+    color: white;
+    position: relative;
+    background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(Assets/background-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    background-attachment: fixed;
+} 
+
+.footer-bg p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+}
+
+.footer-bg a{
+    text-decoration: underline;
+    color: aqua;
+}
