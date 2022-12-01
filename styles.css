@@ -110,7 +110,7 @@ li {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
     body, html {
         font-family: 'Playfair Display', serif;
         font-size: 18px;
@@ -151,6 +151,7 @@ li {
 
     .heading-bg2{
         background-attachment: scroll;
+        background-position: center;
    }
     
 }
