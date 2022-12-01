@@ -110,14 +110,14 @@ li {
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-device-width: 1024px) {
     body, html {
         font-family: 'Playfair Display', serif;
-        font-size: 18px;
+        font-size: 20px;
         }
 
     .Title{
-        font-size: 30px;
+        font-size: 35px;
         font-family: 'Noto Serif Khojki', serif;
         position: absolute;
         top: 50%;
@@ -126,11 +126,7 @@ li {
     }
 
     .SubTitle{
-        font-size: 20px;
-        position: absolute;
-        top: 60%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        display: none;
     }
 
     .QuickInfo{
@@ -139,13 +135,19 @@ li {
         text-align: left;
     }
 
+    ul {
+        max-width: 70%;
+        margin: 0 auto 50px auto;
+        text-align: left;
+        line-height: 1.6;
+      }
+
     .heading-bg2 h2{
         text-align: center;
     }
 
     .bg{
         height: 100vh;
-        background-position-x: right, -800px;
         background-attachment: scroll;
     }
 
@@ -153,5 +155,15 @@ li {
         background-attachment: scroll;
         background-position: center;
    }
+
+   .footer-bg{
+    height: 20vh;
+    background-position: right;
+    background-attachment: scroll;
+    } 
+
+    .footer-bg p{
+        font-size: 15px;
+    }
     
 }
