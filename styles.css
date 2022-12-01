@@ -108,3 +108,49 @@ li {
     text-decoration: underline;
     color: aqua;
 }
+
+
+@media screen and (max-width: 768px) {
+    body, html {
+        font-family: 'Playfair Display', serif;
+        font-size: 18px;
+        }
+
+    .Title{
+        font-size: 30px;
+        font-family: 'Noto Serif Khojki', serif;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .SubTitle{
+        font-size: 20px;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .QuickInfo{
+        margin: 0 auto 50px auto;
+        width: 70%;
+        text-align: left;
+    }
+
+    .heading-bg2 h2{
+        text-align: center;
+    }
+
+    .bg{
+        height: 100vh;
+        background-position-x: right, -800px;
+        background-attachment: scroll;
+    }
+
+    .heading-bg2{
+        background-attachment: scroll;
+   }
+    
+}
